@@ -1,0 +1,53 @@
+body {
+	background-color: lightskyblue;
+}
+
+img {
+	height: 300px;
+	width: 450px;
+	display: inline-block;
+}
+
+h1 {
+	text-align: center;
+	color: lightblue;
+	background-color: darkblue;
+}
+
+h2 {
+	color: lightblue;
+	background-color: darkblue;
+	width: 10em;
+}
+
+nav>a {
+	background-color: lightblue;
+	border: solid blue 2px;
+	padding: 5px;
+}
+
+center+section {
+	margin: 0 25%;
+}
+
+/*picture grid styling*/
+main>section>section {
+	display:inline-block;
+	margin: 20px;
+}
+
+/*picture grid links*/
+img+a {
+	background-color: aquamarine;
+	display: block;
+	text-align:center;
+	font-weight: bold;
+	padding: 10px;
+	border: solid blue 4px;
+}
+
+.rec-lists {
+	display: flex;
+	margin-top: 20px;
+	justify-content: center;
+}
